@@ -1,6 +1,6 @@
-/* * {
+* {
     margin: 0;
-} */
+}
 
 .open-sans-normal {
     font-family: "Open Sans", serif;
@@ -35,9 +35,11 @@ header {
     align-items: center;
     overflow: hidden;
 }
-img{
+
+img {
     max-width: 100%;
 }
+
 /* nav styles */
 .background-img {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -91,7 +93,8 @@ section {
     display: flex;
 
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
 }
@@ -99,7 +102,7 @@ section {
 .banner-description {
     margin-left: 150px;
     margin-top: 200px;
-   max-width:  580px;
+    max-width: 580px;
     height: 350px;
     /* border: 1px solid#FD6E0A; */
 
@@ -126,6 +129,7 @@ section {
 
 .bennar-btn {
     display: flex;
+    justify-content: center;
 
 
 }
@@ -133,23 +137,31 @@ section {
 .banner-btn-1 {
     margin-right: 20px;
     margin-left: 0px;
-
+    width: 200px;
+    height: 64px;
+    border-radius: 10px;
 }
 
 .banner-btn-2 {
     color: #FD6E0A;
     background-color: #FFFFFF;
-    font-size: 20px;
-    padding: 15px 30px;
+    font-size: 25px;
+    padding: 15px 25px;
     border: 1px solid#FD6E0A;
     margin-left: 0px;
+    width: 200px;
+    height: 64px;
+    border-radius: 10px;
 }
-.img-hardy{
+
+.img-hardy {
     float: right;
 }
+
 /* About Me section */
 .about-me {
-    
+    margin-left: auto;
+    margin-right: auto;
     max-width: 950px;
     height: 400px;
     border: 1px solid #FFF8F3;
@@ -187,6 +199,7 @@ section {
     display: flex;
     list-style: none;
     padding: 10px;
+    justify-content: space-evenly;
     text-align: center;
 }
 
@@ -202,6 +215,7 @@ section {
 
 /* Responsive media query section */
 @media screen and (max-width: 768px) {
+
     .navbar,
     .nav-ul,
     .mary,
@@ -215,19 +229,24 @@ section {
 
     }
 }
+
 @media screen and (max-width: 576px) {
     .background-img {
         background-image: none;
     }
-    .nav-ul{
-        max-width: 100%;
-    }
+
+    .nav-ul,
     .banner-description {
         margin: 0 0;
-        width: 100%;
+        max-width: 100%;
         height: 100%;
+        text-align: center;
     }
-
+    .nav-ul{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 70px;
+    }
     .banner-greetings {
         font-size: 20px;
     }
@@ -244,33 +263,44 @@ section {
 
     .bennar-btn {
         flex-direction: column;
+        justify-content: center;
         margin-right: auto;
-        margin-left: 0;
+        margin-left: 100px;
         width: 45%;
     }
 
     .banner-btn-1 {
         margin-bottom: 20px;
     }
+.banner-btn-2{
+margin-bottom: 60px;
+}
 
     .img-hardy,
     {
     max-width: 100%;
     display: block;
-    height: 50%;
+    height: 100%;
     margin: 0;
+
 }
-.about-me{
-    width: 100%;
+
+.about-me {
+    max-width: 100%;
     height: auto;
 
 }
-.about-me-content{
-    max-width: 70%;
+
+.about-me-content {
+    max-width: 85%;
     height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
-.about-me-fotter{
+
+.about-me-fotter {
     flex-direction: column;
     gap: 10px;
 }
