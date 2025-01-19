@@ -322,10 +322,10 @@ nav>ul {
     }
 
     .bennar-btn {
-        flex-direction: column;
         justify-content: center;
+        flex-direction: column;
         margin-right: auto;
-        margin-left: 150px;
+        margin-left: auto;
         width: 45%;
     }
 
