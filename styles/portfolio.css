@@ -46,9 +46,8 @@ header {
     margin-left: 20px
 }
 
-nav {
+.navbar {
     display: flex;
-    /* margin-top: 50px; */
     align-items: center;
 
 }
@@ -117,14 +116,23 @@ section {
     padding-bottom: 20px;
     line-height: 25px;
 }
+.bennar-btn{
+    display: flex;
+    
 
-.bennar-btn-2 {
+}
+.banner-btn-1{
+    margin-right: 20px;
+    margin-left: 0px;
+
+}
+.banner-btn-2 {
     color: #FD6E0A;
     background-color: #FFFFFF;
     font-size: 20px;
     padding: 15px 30px;
     border: 1px solid#FD6E0A;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 /* About Me section */
@@ -135,6 +143,7 @@ section {
     margin-top: 70px;
     background-color: #FFF8F3;
     border-radius: 10px;
+    display: none;
 }
 
 .about-me-content {
@@ -172,3 +181,51 @@ section {
     font-size: 17px;
     font-weight:bold;
 }
+
+/* Responsive media query section */
+@media screen and (max-width: 576px) {
+    .background-img{
+        background-image: none;
+       
+    }
+    .navbar, .nav-ul, .mary,.banner{
+   
+        flex-direction: column;
+        align-items:center;
+        margin-left: 0;
+        width: 100%;
+        
+    }
+    .banner-description{
+        margin: 0 0;
+        width: 100%;
+        height: 100%;
+    }
+    .banner-greetings{
+        font-size: 20px;
+    }
+    .banner-name{
+        font-size: 40px;
+    }
+    .description-text{
+        font-size: 10px;
+        line-height: normal;
+    }
+ 
+.bennar-btn{
+    flex-direction: column;
+   margin-right: auto;
+   margin-left: 0;
+   width: 45%;
+}
+.banner-btn-1{
+    margin-right: auto;
+    margin-left: 0%;
+    margin-bottom: 20px;
+}
+ .img-hardy{
+   width: 300px;
+   height: 420px;
+ margin-right: 0;
+ 
+ }
