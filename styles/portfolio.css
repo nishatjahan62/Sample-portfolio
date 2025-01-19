@@ -324,9 +324,8 @@ nav>ul {
     .bennar-btn {
         justify-content: center;
         flex-direction: column;
-        margin-right: auto;
-        margin-left: auto;
-        width: 45%;
+        margin: 0 auto;
+        width: 51%;
     }
 
     .banner-btn-1 {
