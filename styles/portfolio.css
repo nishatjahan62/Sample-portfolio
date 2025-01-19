@@ -116,16 +116,19 @@ section {
     padding-bottom: 20px;
     line-height: 25px;
 }
-.bennar-btn{
+
+.bennar-btn {
     display: flex;
-    
+
 
 }
-.banner-btn-1{
+
+.banner-btn-1 {
     margin-right: 20px;
     margin-left: 0px;
 
 }
+
 .banner-btn-2 {
     color: #FD6E0A;
     background-color: #FFFFFF;
@@ -155,77 +158,90 @@ section {
     margin-left: 100px;
     margin-bottom: 80px;
 }
-.about-me-title{
+
+.about-me-title {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
     padding: 20px;
 }
-.about-me-info{
+
+.about-me-info {
     text-align: center;
     font-size: 16px;
     padding: 10px;
-    
+
 }
-.about-me-fotter{
+
+.about-me-fotter {
     display: flex;
     list-style: none;
     padding: 10px;
     text-align: center;
 }
-.top-list{
+
+.top-list {
     font-size: 16px;
     font-weight: 400px;
 }
-.bottom-list{
+
+.bottom-list {
     font-size: 17px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 /* Responsive media query section */
 @media screen and (max-width: 576px) {
-    .background-img{
+    .background-img {
         background-image: none;
-       
+
     }
-    .navbar, .nav-ul, .mary,.banner{
-   
-        flex-direction: column;
-        align-items:center;
-        margin-left: 0;
-        width: 100%;
-        
-    }
-    .banner-description{
-        margin: 0 0;
-        width: 100%;
-        height: 100%;
-    }
-    .banner-greetings{
-        font-size: 20px;
-    }
-    .banner-name{
-        font-size: 40px;
-    }
-    .description-text{
-        font-size: 10px;
-        line-height: normal;
-    }
- 
-.bennar-btn{
+}
+.navbar, .nav-ul, .mary,.banner{
+
     flex-direction: column;
-   margin-right: auto;
-   margin-left: 0;
-   width: 45%;
+    align-items:center;
+    margin-left: 0;
+    width: 100%;
+    
+}
+.banner-description{
+    margin: 0 0;
+    width: 100%;
+    height: 100%;
+
+}
+.banner-greetings{
+    font-size: 20px;
+}
+.banner-name{
+    font-size: 40px;
+}
+.description-text{
+    font-size: 10px;
+    line-height: normal;
+    
+}
+
+.bennar-btn{
+flex-direction: column;
+margin-right: auto;
+margin-left: 0;
+width: 45%;
 }
 .banner-btn-1{
-    margin-right: auto;
+    margin-right: 0;
     margin-left: 0%;
     margin-bottom: 20px;
+     }
+     .img-hardy{
+        width: 300px;
+        height: 420px;
+      margin-right: 0;
+      margin-left: 0;
+      
+      }
+*{
+    overflow-x: hidden;
+    align-items: center;
 }
- .img-hardy{
-   width: 300px;
-   height: 420px;
- margin-right: 0;
- 
- }
