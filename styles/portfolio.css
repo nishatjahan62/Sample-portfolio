@@ -19,7 +19,9 @@
     color: #474747;
 }
 
-.dark3 {}
+.dark3 {
+    color: #757575
+}
 
 .btn {
     color: #FFFFFF;
@@ -258,6 +260,41 @@ nav>ul {
 .hide{
     display: hide;
 }
+.summary-title{
+    font-size:35px ;
+    font-weight: bold;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+.summary{
+    display: flex;
+    gap: 25px;
+    max-width: 800px;
+    justify-content: center;
+    margin-left: 290px;
+}
+.education-box, .experience-box{
+    list-style: none;
+}
+.experience-title ,.education-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.box-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.inistitute{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.box-info{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
 
 /* Responsive media query section */
     /* for Mobile Phone  */
@@ -290,7 +327,7 @@ nav>ul {
         margin: 0;
         margin-left: 0;
     }
-    .nav-ul{
+    .nav-ul,{
         font-size: 14px;
         gap: 10px;
         margin: 0;
@@ -364,7 +401,7 @@ margin-bottom: 60px;
     flex-direction: column;
     gap: 10px;
 }
-.boxes{ 
+.boxes,.summary{ 
     flex-direction: column;
     max-width: 100%;
     margin: 0;
@@ -376,5 +413,9 @@ margin-bottom: 60px;
    max-width: 100%;
    padding-top: 100px;
    
-} */
+} 
+.what-i-do, .summary-title{
+    font-size: 35px;
+}
+
 }
